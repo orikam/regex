@@ -1,0 +1,26 @@
+EXPERIMENTAL {
+	global:
+
+	rte_regex_dev_count;
+	rte_regex_dev_get_dev_id;
+	rte_regex_dev_info_get;
+	rte_regex_dev_configure;
+	rte_regex_queue_pair_setup;
+	rte_regex_dev_start;
+	rte_regex_dev_stop;
+	rte_regex_dev_close;
+	rte_regex_dev_attr_get;
+	rte_regex_dev_attr_set;
+	rte_regex_rule_db_update;
+	rte_regex_rule_db_compile_activate;
+	rte_regex_rule_db_import;
+	rte_regex_rule_db_export;
+	rte_regex_dev_xstats_names_get;
+	rte_regex_dev_xstats_get;
+	rte_regex_dev_xstats_by_name_get;
+	rte_regex_dev_xstats_reset;
+	rte_regex_dev_selftest;
+	rte_regex_dev_dump;
+	rte_regex_enqueue_burst;
+	rte_regex_dequeue_burst;
+};
